@@ -13,3 +13,9 @@
     background: linear-gradient(to right, rgba(196, 215, 224, 1) 0%, rgba(236, 197, 251, 1) 57%, rgba(255, 209, 209, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c4d7e0', endColorstr='#ffd1d1', GradientType=1);
 }
+
+@media(max-width: 1084px) {
+    .footer p {
+        font-size: 1.1rem;
+    }
+}
