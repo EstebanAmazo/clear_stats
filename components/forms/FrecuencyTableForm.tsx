@@ -40,7 +40,7 @@ const FrecuencyTableForm = () => {
 
             <div className={`${styles.dataContainer}`}>
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
-                <label htmlFor="variableName">Datos de la muestra (separados por comas ",")</label>
+                <label htmlFor="variableName">Datos de la muestra (pulsa Enter para agregar)</label>
                 <Chips className={`${styles.input}`} value={data} onChange={(e) => setData(e.value)}
                        separator=","></Chips>
                 <span>*Los resultados se actualizan cada vez que ingreses un dato.</span>
