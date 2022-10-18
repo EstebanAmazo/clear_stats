@@ -1,0 +1,62 @@
+.form {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+.form label {
+    display: block;
+    color: rgb(73, 73, 73);
+}
+
+.form div button {
+    margin-top: 1rem !important;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 19rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: .6rem;
+    background-color: transparent;
+    
+
+}
+
+.form div span {
+    font-size: 1.3rem;
+    margin: 0;
+    display: block;
+}
+
+.loader {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: block;
+    margin:15px auto;
+    position: relative;
+    background: #FFF;
+    box-shadow: -24px 0 #FFF, 24px 0 #FFF;
+    box-sizing: border-box;
+    animation: shadowPulse 2s linear infinite;
+  }
+  
+  @keyframes shadowPulse {
+    33% {
+      background: #FFF;
+      box-shadow: -24px 0 #fdd3f6, 24px 0 #FFF;
+    }
+    66% {
+      background: #fdd3f6;
+      box-shadow: -24px 0 #FFF, 24px 0 #FFF;
+    }
+    100% {
+      background: #FFF;
+      box-shadow: -24px 0 #FFF, 24px 0 #fdd3f6;
+    }
+  }
+  
+  
+  
