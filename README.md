@@ -16,4 +16,4 @@ npm i
 npm run dev
 ```
 
-DEMO: https://clearstats.vercel.app/
+DEMO: https://clearstats.vercel.app
